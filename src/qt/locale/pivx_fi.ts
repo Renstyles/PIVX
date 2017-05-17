@@ -595,7 +595,7 @@ Osoite: %4
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Yhteensä: %1 (OBF yht.sopivia: %2 / Käytössä: %3)</translation>
+        <translation>Yhteensä: %1 (OBF yht.sozidia: %2 / Käytössä: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
@@ -1265,7 +1265,7 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/darknet-crypto/darknet-wallet-translations/</source>
-        <translation>Puuttuuko sopiva kieli tai käännös on kesken? Auta käännöstyössä täällä:
+        <translation>Puuttuuko sozida kieli tai käännös on kesken? Auta käännöstyössä täällä:
 https://www.transifex.com/darknet-crypto/darknet-wallet-translations/</translation>
     </message>
     <message>
@@ -1505,7 +1505,7 @@ https://www.transifex.com/darknet-crypto/darknet-wallet-translations/</translati
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Ei tarpeeksi yhteensopivia syötteitä anonymisointiin &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;anonymisoidaan &lt;span style='color:red;'&gt;%2&lt;/span&gt; sen sijaan</translation>
+        <translation>Ei tarpeeksi yhteensozidia syötteitä anonymisointiin &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;anonymisoidaan &lt;span style='color:red;'&gt;%2&lt;/span&gt; sen sijaan</translation>
     </message>
     <message>
         <source>Overall progress</source>
@@ -1525,7 +1525,7 @@ https://www.transifex.com/darknet-crypto/darknet-wallet-translations/</translati
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Löytyi tarpeeksi yhteensopivia syötteitä anonymisointiin %1</translation>
+        <translation>Löytyi tarpeeksi yhteensozidia syötteitä anonymisointiin %1</translation>
     </message>
     <message>
         <source>Mixed</source>
@@ -3456,7 +3456,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Ei voida denominoida: yhteensopivia syötteitä ei ole jäljellä.</translation>
+        <translation>Ei voida denominoida: yhteensozidia syötteitä ei ole jäljellä.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -4016,7 +4016,7 @@ esimerkiksi: alertnotify=echo %%s | mail -s "DarkNet Hälytys" admin@foo.com
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Yhteensopivaa Masternodea ei löytynyt.</translation>
+        <translation>Yhteensozidaa Masternodea ei löytynyt.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
@@ -4288,7 +4288,7 @@ esimerkiksi: alertnotify=echo %%s | mail -s "DarkNet Hälytys" admin@foo.com
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Ei yhteensopiva olemassa olevien siirtotapahtumien kanssa.</translation>
+        <translation>Ei yhteensozida olemassa olevien siirtotapahtumien kanssa.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>

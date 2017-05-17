@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=ZID's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=zid
+Group=zid
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/zidd/zidd.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/zidd -daemon -pid=/var/lib/zidd/zidd.pid \
+          -conf=/etc/zid/zid.conf -datadir=/var/lib/zidd
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/zid-cli -conf=/etc/zid/zid.conf \
+         -datadir=/var/lib/zidd stop
 
 Restart=always
 PrivateTmp=true

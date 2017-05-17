@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between pivx-cli and pivxd)
- * of a given instance of the Pivx system.
+ * CBaseChainParams defines the base parameters (shared between zid-cli and zidd)
+ * of a given instance of the Zid system.
  */
 class CBaseChainParams
 {
